@@ -2,18 +2,75 @@
 
 A basic Flask web application with Google App Engine as its deploy destination
 
+## How to use this repo
+
+1. Fork the repo
+
+2. Clone your copy of the repo
+    ```
+    # Using HTTPS
+    git clone https://github.com/<your-username>/basic-flask-app.git
+
+    # Using SSH
+    git clone git@github.com:<your-username>/basic-flask-app.git
+    ```
+
+3. Configure the upstream remote
+    ```
+    cd basic-flask-app/
+    git remote add upstream https://github.com/onelharrison/basic-flask-app.git
+
+    # Check that the remote was successfully added
+    git remote -v
+
+    # You should see the following remotes
+    #
+    # IF you cloned the repo using HTTPS
+    # origin   https://github.com/<your-username>/basic-flask-app.git (fetch)
+    # origin   https://github.com/<your-username>/basic-flask-app.git (push)
+    #
+    # IF you cloned the repo using SSH
+    # origin   git@github.com:<your-username>/basic-flask-app.git (fetch)
+    # origin   git@github.com:<your-username>/basic-flask-app.git (push)
+    #
+    # The upstream remote you just added
+    # upstream https://github.com/onelharrison/basic-flask-app.git (fetch)
+    # upstream https://github.com/onelharrison/basic-flask-app.git (push)
+    ```
+
+4. Check out the tasks directory for instructions on how to improve the developer experience in the repo
+
+## Tasks
+
+1. [Create a Makefile](/tasks/create_a_makefile.md)
+2. [Create a Dockerfile](/tasks/create_a_dockerfile.md)
+3. [Create a Jenkinsfile](/tasks/create_a_jenkinsfile.md)
+
 ## Getting Started
 
-```
-pipenv install -r requirements.txt
+1. Ensure that `python` refers to Python3.9.
+   ```
+   python --version
+   ```
 
-pipenv run python main.py
-```
+2. Install pipenv
+    ```
+    python -m pip install -U pip
+    python -m pip install pipenv
+    ```
+3. Install the project dependencies
+    ```
+    python -m pipenv install -r requirements.txt
+    ```
+4. Run the application
+    ```
+    python -m pipenv run python main.py
+    ```
 
 ## Deployment
 
 ```
-pipenv lock -r > requirements.txt
+python -m pipenv lock -r > requirements.txt
 
 gcloud app deploy
 ```
