@@ -60,7 +60,7 @@ A basic Flask web application with Google App Engine as its deploy destination
     ```
 3. Install the project dependencies
     ```
-    python -m pipenv install -r requirements.txt
+    python -m pipenv install
     ```
 4. Run the application
     ```
