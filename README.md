@@ -1,11 +1,10 @@
 # basic-flask-app
 
-This repository is intended to be used as a teaching/learning aid.
+This repository is intended to be used as a teaching/learning aid. It contains a basic Flask web application
+and tasks in the `todo` directory that learners are to complete in the [prescribed order](#todo).
 
-It contains a basic Flask web application, and learners are to complete the tasks
-outlined in the `todo` directory in the [prescribed order shown below](#todo).
-
-This repo assumes you are using macOS or a variant of the GNU/Linux operating system.
+Learners are expected to complete the prescribed tasks using a Unix operating system such as macOS or a
+variant of the GNU/Linux operating system (e.g. Ubuntu).
 
 ## Getting started
 
@@ -43,7 +42,9 @@ This repo assumes you are using macOS or a variant of the GNU/Linux operating sy
     # upstream https://github.com/onelharrison/basic-flask-app.git (push)
     ```
 
-4. Complete the [todo items](#todo) in the prescribed order.
+4. [Run the app](#running-the-app) and familiarize yourself with the files in the repo
+
+5. Complete the [todo items](#todo) in the prescribed order.
 
 ## Running the app
 
