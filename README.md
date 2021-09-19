@@ -38,13 +38,14 @@ A basic Flask web application with Google App Engine as its deploy destination
     # upstream https://github.com/onelharrison/basic-flask-app.git (push)
     ```
 
-4. Check out the tasks directory for instructions on how to improve the developer experience in the repo
+4. Check out the `todo/` directory for instructions on how to improve the developer experience in the repo
 
 ## Tasks
 
-1. [Create a Makefile](/tasks/create_a_makefile.md)
-2. [Create a Dockerfile](/tasks/create_a_dockerfile.md)
-3. [Create a Jenkinsfile](/tasks/create_a_jenkinsfile.md)
+1. [Create a Makefile](/todo/create_a_makefile.md)
+2. [Create a Dockerfile](/todo/create_a_dockerfile.md)
+3. [Update Makefile to use docker](/todo/update_makefile_to_use_docker.md)
+4. [Create a Jenkinsfile](/todo/create_a_jenkinsfile.md)
 
 ## Getting Started
 
