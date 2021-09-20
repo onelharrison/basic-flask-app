@@ -10,7 +10,8 @@ variant of the GNU/Linux operating system (e.g. Ubuntu).
 
 1. Fork the repo
 
-2. Clone your copy of the repo
+2. Copy and run one of these commands in your terminal to clone your version of the repo.
+Make sure to replace `<your-username>` with your GitHub username.
     ```
     # Using HTTPS
     git clone https://github.com/<your-username>/basic-flask-app.git
