@@ -6,6 +6,16 @@ and tasks in the `todo` directory that learners are to complete in the [prescrib
 Learners are expected to complete the prescribed tasks using a Unix operating system such as macOS or a
 variant of the GNU/Linux operating system (e.g. Ubuntu).
 
+## Prerequisites
+
+1. A Unix operating systems (macOS or GNU/Linux)
+
+2. A text editor
+    - Visual Studio Code
+
+3. Python 3.9.0. There are many ways to install this. Here is one.
+    - Using pyenv
+
 ## Getting started
 
 1. Fork the repo
