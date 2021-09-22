@@ -78,7 +78,7 @@ Now you can run `make run` to start a server for the application.
 
 ### make clean
 
-Add a make target named `clean` to the Makefile that will the resources created by the `install` make target.
+Add a make target named `clean` to the Makefile that will remove the resources created by the `install` make target.
 
 The `python -m pipenv install` command creates a isolated virtual environment specifically to run the code for this project.
 
