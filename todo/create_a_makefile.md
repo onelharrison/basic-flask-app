@@ -40,13 +40,27 @@ Makefile main.py Pipfile Pipefile.lock README.md src/ todo/
 
 Add a make target named `install` to the Makefile that will install the necessary dependencies for running the application.
 
-The command for installing the dependencies for this application is the following.
+The commands for installing the dependencies for this application is the following.
 
 ```
 python -m pip install -U pip
 python -m pip install pipenv
 python -m pipenv install
 ```
+
+Here's how to add a make target named `install` to the Makefile that uses the above commands.
+
+```
+install:
+	python -m pip install -U pip
+	python -m pip install pipenv
+	python -m pipenv install
+```
+
+Note that the indentation done here is done using TAB. This is important. If you try to use SPACE,
+your Makefile will NOT work.
+
+Save the Makefile. Always be saving!
 
 Now you can run `make install` to install all the necessary dependencies for running the application.
 
