@@ -91,6 +91,12 @@ By now you may have noticed that the `install` and `run` make targets summarize 
 
 Make sure to save your work by committing the Makefile you created and pushing it to your repo.
 
+```
+git add Makefile
+git commit -m "Replace this with a message about what you're committing"
+git push origin master
+```
+
 ## Help
 
 Checkout https://makefiletutorial.com/ to learn more about makefiles, but note that only the first page is relevant for the scope of this task.
