@@ -57,8 +57,9 @@ install:
 	python -m pipenv install
 ```
 
-Note that the indentation done here is done using TAB. This is important. If you try to use SPACE,
-your Makefile will NOT work.
+Note that the indentation here is done using TAB. This is important!
+
+If you try to use SPACE, your Makefile will NOT work.
 
 Save the Makefile. Always be saving!
 
