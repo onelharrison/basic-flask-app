@@ -48,7 +48,7 @@ python -m pip install pipenv
 python -m pipenv install
 ```
 
-Here's how to add a make target named `install` to the Makefile that uses the above commands.
+Copy the following into the Makefile to add the `install` target that uses the above commands.
 
 ```
 install:
