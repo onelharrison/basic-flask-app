@@ -36,6 +36,17 @@ For example,
 Makefile main.py Pipfile Pipefile.lock README.md src/ todo/
 ```
 
+You will need to have the `make` utility installed to continue.
+
+```
+# On  macOS
+brew install make
+
+# On Ubuntu
+sudo apt-get update
+sudo apt-get install make
+```
+
 ### make install
 
 Add a make target named `install` to the Makefile that will install the necessary dependencies for running the application.
